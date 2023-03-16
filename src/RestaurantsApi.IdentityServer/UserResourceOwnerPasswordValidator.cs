@@ -34,7 +34,7 @@ namespace RestaurantsApi.IdentityServer
 
             if (user == null)
             {
-                context.Result = new GrantValidationResult(TokenRequestErrors.InvalidRequest, "user not found");
+                context.Result = new GrantValidationResult(TokenRequestErrors.InvalidRequest, "password verification failed");
 
                 return;
             }

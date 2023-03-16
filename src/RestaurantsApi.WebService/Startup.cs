@@ -11,7 +11,6 @@ namespace RestaurantsApi.WebService
     using IdentityServer4.Services;
     using IdentityServer4.Stores;
     using IdentityServer4.Validation;
-    using Is4.Demo.Services;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Identity;

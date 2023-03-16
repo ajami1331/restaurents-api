@@ -1,4 +1,4 @@
-﻿namespace Is4.Demo.Services
+﻿namespace RestaurantsApi.IdentityServer
 {
     using System.Linq;
     using System.Threading.Tasks;
